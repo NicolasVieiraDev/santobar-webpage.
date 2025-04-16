@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santo Bar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="logo">
+      <h1>Santo Bar</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="sobre" class="secao sobre">
+    <h2>Sobre Nós</h2>
+    <p>PINTOU O CAMPEÃO!! Do sonho de 2 amigos surge um novo bar em Bragança Paulista para você curtir com seus amigos e familia</p>
+  </section>
+  <section id="cardapio" class="secao cardapio">
+    <h2>Cardápio</h2>
+    <div class="abas-cardapio">
+      <button class="aba ativa" data-categoria="destilados">Os destilados</button>
+      <button class="aba" data-categoria="porcoes">Porções</button>
+      <button class="aba" data-categoria="cervejas">Cervejas</button>
+      <button class="aba" data-categoria="caipirinhas">Caipirinhas</button>
+    </div>
+    <div id="destilados" class="conteudo-cardapio ativo">
+      <div class="item-cardapio">
+        <img src="imagens/destilado1.jpg" alt="Destilado 1">
+        <h3>Whisky</h3>
+        <p>Jack Daniel's......R$XX</p>
+        <p>Jack Honey ........R$</p>
+        <p>Jack Apple.........R$</p>
+        <p>Red Label..........R$</p>
+        <p>White Horse........R$</p>
+        <h3>GIN</h3>
+        <p>Beefeater..........R$</p>
+        <p>Tanqueray..........R$</p>
+        <h3>VODKA</h3>
+        <P>Smirnoff...........R$</P>
+        <p>Absolut............R$</p>
+        <h3>CACHAÇA</h3>
+        <p>Gabriela...........R$</p>
+        <h3>CAMPARI</h3>
+        <p>Campari............R$</p>
+        <h3>COICE DE MULA</h3>
+        <p>Coice de Mula......R$</p>
+      </div>
+    </div>
+
+    <div id="porcoes" class="conteudo-cardapio">
+      <div class="item-cardapio">
+        <img src="imagens/porcao1.jpg" alt="Porção 1">
+        <h3>Porções de Fritas</h3>
+        <p>Porção de fritas...........R$</p>
+        <p>Porção de fritas Cheddar e Bacon ......R$</p>
+        <h3>SANTO MARECHAL</h3>
+        <P>Porção com fritas, frango e linguiça.............R$</P>
+        <h3>PORÇÂO DE FRANGO</h3>
+        <p>Frango a passarinho.....R$</p>
+        <h3>PORÇÔES DE SALGADOS (15 unidades)</h3>
+        <P>Coxinha........R$</P>
+        <p>Kibe...........R$</p>
+        <P>Bolinha de carne com queijo......R$</P>
+        <p>Bolinha de queijo.......R$</p>
+        <h3>TORRESMO</h3>
+        <p>Porção de torresmo........R$</p>
+        <h3>TÁBUA DE FRIOS</h3>
+        <p>Tábua de frios......R$</p>
+      </div>
+    </div>
+
+    <div id="cervejas" class="conteudo-cardapio">
+      <div class="item-cardapio">
+        <img src="imagens/cerveja1.jpg" alt="Cerveja 1">
+        <h3>Cerveja Artesanal</h3>
+        <p>R$ 12,00</p>
+      </div>
+    </div>
+
+    <div id="caipirinhas" class="conteudo-cardapio">
+      <div class="item-cardapio">
+        <img src="imagens/caipirinha1.jpg" alt="Caipirinha 1">
+        <h3>Caipirinha Tradicional</h3>
+        <p>R$ 18,00</p>
+      </div>
+    </div>
+  </section>
+  <a href="https://wa.me/5511989069311" target="_blank" class="botao-whatsapp">
+    <img src="imagens/whatsapp.png" alt="WhatsApp">
+  </a>
+
+
+  <section id="localizacao" class="secao localizacao">
+    <h2>Localização</h2>
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.2224223940907!2d-46.537424699999995!3d-22.9420343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceca205cfcc63f%3A0x51af03b1b9b95baa!2sR.%20Vicente%20Sabela%2C%2042%20-%20Jardim%20Recreio%2C%20Bragan%C3%A7a%20Paulista%20-%20SP%2C%2012910-350!5e0!3m2!1spt-BR!2sbr!4v1744762342137!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <footer class="rodape">
+    <div class="redes-sociais">
+      <a href="https://www.instagram.com/santobarbraganca?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+        <img src="imagens/instagram.png" alt="Instagram">
+      </a>
+      <a href="https://wa.me/5511989069311" target="_blank">
+        <img src="imagens/whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+    <p class="direito-imagem">© 2025 Santo Bar. Direito de imagem reservado.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

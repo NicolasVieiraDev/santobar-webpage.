@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .cabecalho {
+    background-color: #FFD700; 
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cabecalho .logo h1 {
+    font-family: 'Rock Salt', cursive; 
+    font-size: 3rem;
+    color: #000; 
+  }
+  
+  .cabecalho nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .cabecalho nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  
+  .secao {
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  
+  .sobre {
+    background-color: #FFD700;
+    color: #000;
+  }
+  
+  .cardapio {
+    background-color: #111; 
+    color: #fff;
+  }
+  
+  .abas-cardapio {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .abas-cardapio .aba {
+    background-color: #222;
+    color: #FFD700;
+    border: 1px solid #FFD700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .abas-cardapio .aba:hover,
+  .abas-cardapio .aba.ativa {
+    background-color: #FFD700;
+    color: #000;
+  }
+  .conteudo-cardapio {
+    display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .conteudo-cardapio.ativo {
+    display: flex;
+  }
+  
+  .item-cardapio {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  }
+  
+  .item-cardapio img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .botao-whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+  }
+  
+  .botao-whatsapp img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .localizacao {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .localizacao .mapa iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .rodape {
+    background-color: #000;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rodape .redes-sociais a {
+    margin: 0 10px;
+  }
+  
+  .rodape .redes-sociais a img {
+    width: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .rodape .redes-sociais a img:hover {
+    transform: scale(1.2);
+  }
+  
+  .rodape .direito-imagem {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
